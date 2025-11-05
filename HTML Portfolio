@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+  <!-- Header Section -->
+  <header class="bg-blue-600 text-white py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 text-balance">Welcome to My Portfolio</h1>
+      <p class="text-xl md:text-2xl text-blue-100">Showcasing My Journey and Accomplishments</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto px-4 py-12">
+    <!-- Profile Image -->
+    <div class="flex justify-center mb-8">
+      <img 
+        src="/placeholder.svg?height=200&width=200" 
+        alt="Profile picture" 
+        class="rounded-full w-48 h-48 object-cover shadow-lg border-4 border-white"
+      />
+    </div>
+
+    <!-- Introduction Section -->
+    <section class="bg-white rounded-lg shadow-md p-8 mb-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4 text-center">About Me</h2>
+      <p class="text-lg text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+        Hello! I'm a passionate professional dedicated to excellence and innovation. 
+        With years of experience in my field, I've had the privilege of working on 
+        exciting projects and achieving meaningful milestones. I'm committed to continuous 
+        growth and making a positive impact through my work.
+      </p>
+    </section>
+
+    <!-- Accomplishments Section -->
+    <section class="bg-white rounded-lg shadow-md p-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">Key Accomplishments</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="border-l-4 border-blue-600 pl-4">
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Professional Achievement</h3>
+          <p class="text-gray-600">Led successful projects that delivered exceptional results and exceeded expectations.</p>
+        </div>
+        <div class="border-l-4 border-blue-600 pl-4">
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Innovation & Growth</h3>
+          <p class="text-gray-600">Developed innovative solutions that improved efficiency and drove meaningful change.</p>
+        </div>
+        <div class="border-l-4 border-blue-600 pl-4">
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Team Leadership</h3>
+          <p class="text-gray-600">Mentored team members and fostered a collaborative environment for success.</p>
+        </div>
+        <div class="border-l-4 border-blue-600 pl-4">
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Continuous Learning</h3>
+          <p class="text-gray-600">Committed to professional development and staying current with industry trends.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8 px-4 mt-12">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-gray-300">&copy; 2025 Personal Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
